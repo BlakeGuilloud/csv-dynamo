@@ -24,5 +24,10 @@
   },
   "pre-commit": [
     "lint"
-  ]
+  ],
+  "dependencies": {
+    "json2csv": "^3.11.5",
+    "papaparse": "^4.3.6",
+    "random-name": "^0.1.2"
+  }
 }
