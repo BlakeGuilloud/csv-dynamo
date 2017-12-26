@@ -2,7 +2,7 @@
   "name": "csv-dynamo",
   "version": "1.0.1",
   "description": "CSV Generator script.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Blake Guilloud <blake.guilloud@gmail.com>",
   "license": "MIT",
   "devDependencies": {

@@ -3,7 +3,7 @@
 A script for generating a realistic CSV file based on provided opts.
 
 ### Usage
-```
+```javascript
 import csvDynamo from 'csv-dynamo';
 
 const options = ['first', 'last', 'birthday'];
