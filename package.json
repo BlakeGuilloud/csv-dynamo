@@ -8,26 +8,23 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
-    "eslint-config-blake": "^1.0.8",
-    "jest": "^21.2.1",
+    "eslint-config-blake": "^1.0.9",
     "pre-commit": "^1.2.2",
     "rimraf": "^2.6.2"
   },
   "scripts": {
     "build": "babel lib --out-dir dist",
     "clean": "rimraf dist",
-    "fix": "eslint ./lib ./test --fix",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "lint": "eslint ./lib ./test",
+    "fix": "eslint ./lib --fix",
+    "lint": "eslint ./lib",
     "prepublish": "yarn clean && yarn build"
   },
   "pre-commit": [
     "lint"
   ],
   "dependencies": {
-    "json2csv": "^3.11.5",
-    "papaparse": "^4.3.6",
-    "random-name": "^0.1.2"
+    "chalk": "^2.3.0",
+    "chance": "^1.0.12",
+    "json2csv": "^3.11.5"
   }
 }

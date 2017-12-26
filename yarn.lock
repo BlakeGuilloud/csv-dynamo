@@ -901,13 +901,17 @@ chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0:
+chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.3.0.tgz#b5ea48efc9c1793dccc9b4767c93914d3f2d52ba"
   dependencies:
     ansi-styles "^3.1.0"
     escape-string-regexp "^1.0.5"
     supports-color "^4.0.0"
+
+chance@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/chance/-/chance-1.0.12.tgz#6764c9cb7b4f34856fb780d07f0e17a6601c6c08"
 
 chokidar@^1.6.1:
   version "1.7.0"
@@ -1176,9 +1180,9 @@ escodegen@^1.6.1:
   optionalDependencies:
     source-map "~0.5.6"
 
-eslint-config-blake@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/eslint-config-blake/-/eslint-config-blake-1.0.8.tgz#cbd1a6cfa3443edc3c1ddd316cd71ff66fb2d116"
+eslint-config-blake@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-blake/-/eslint-config-blake-1.0.9.tgz#7bebbbea6752022fe4dfd7783deaa966965c6b8c"
   dependencies:
     babel-eslint "^8.0.1"
     eslint "^4.9.0"

@@ -1,8 +1,3 @@
 {
-  "extends": "blake",
-  "globals": {
-    "describe": true,
-    "it": true,
-    "expect": true
-  }
+  "extends": "blake"
 }
