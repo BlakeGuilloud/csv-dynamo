@@ -1,6 +1,6 @@
 {
   "name": "csv-dynamo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CSV Generator script.",
   "main": "dist/index.js",
   "author": "Blake Guilloud <blake.guilloud@gmail.com>",
