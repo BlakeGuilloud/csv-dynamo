@@ -17,5 +17,5 @@ const options = [
 const rowCount = 10000;
 const path = process.cwd() + '/temp.csv';
 
-csvDynamo(options, rowCount, path);
+generateCsv(options, rowCount, path);
 ```
